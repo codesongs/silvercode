@@ -8,6 +8,7 @@ tic = time.time()
 c = np.dot(a,b)
 toc = time.time()
 
+print(c)
 print("Vectorized version : " + str(1000*(toc-tic)) + "ms")
 
 
